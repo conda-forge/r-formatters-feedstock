@@ -27,11 +27,13 @@ requirements:
     - r-checkmate >=2.1.0
     - r-htmltools >=0.5.3
     - r-lifecycle >=0.2.0
+    - r-stringi >=1.7.12
   run:
     - r-base
     - r-checkmate >=2.1.0
     - r-htmltools >=0.5.3
     - r-lifecycle >=0.2.0
+    - r-stringi >=1.7.12
 
 test:
   commands:
