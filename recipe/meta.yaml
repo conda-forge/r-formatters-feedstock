@@ -1,4 +1,4 @@
-{% set version = "0.5.9" %}
+{% set version = "0.5.10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/formatters_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/formatters/formatters_{{ version }}.tar.gz
-  sha256: 5cf0fb29b8778040794b5de1899e6fc28b40e85edad11e4e4fb779fb42992748
+  sha256: 8726f0e70a7ecbe01067616ac6eea09065175e62a05b25dcd039c5740a5a7d1d
 
 build:
   number: 0
